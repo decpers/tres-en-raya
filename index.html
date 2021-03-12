@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Gugi&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Galindo&display=swap" rel="stylesheet">
+    <!--Montserrat-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;1,400&display=swap" rel="stylesheet">
+    <title>Juego | 3 en raya</title>
+</head>
+<body>
+    <div class="container">
+        <h1 class="container__title">TRES EN RAYA</h1>
+        <div class="container__players">
+            <button class="btn">1 Player</button>
+            <button class="btn">2 Player</button>
+        </div>
+        <div class="container__players container__players-letters">
+            <div class="options__btn">O</div>
+            <div class="options__btn">X</div>
+        </div>
+        <div class="container__board">
+            <div id="1" class="board__box"></div>
+            <div id="2" class="board__box"></div>
+            <div id="3" class="board__box"></div>
+            <div id="4" class="board__box"></div>
+            <div id="5" class="board__box"></div>
+            <div id="6" class="board__box"></div>
+            <div id="7" class="board__box"></div>
+            <div id="8" class="board__box"></div>
+            <div id="9" class="board__box"></div>
+            <section id="message" class="container__message">
+                <h2 class="message__score">SCORES</h2>
+                <div class="message__info">
+                    <label class="info__title">Player 1</label>
+                    <label id="info__player1" class="info__player1">playing..</label>
+                </div>
+                <div class="message__info">
+                    <label class="info__title">Player 2</label>   
+                    <label id="info__player2" class="info__player2">playing..</label>
+                </div>
+                <button id="message__reset" class="message__reset">Nueva partida</button>
+            </section>
+        </div>
+        
+        <footer>&copy Gary Yaral. All rights reserved.</footer>
+    </div>
+    
+
+
+    <script type="module" src="js/main.js"></script>
+</body>
+</html>
